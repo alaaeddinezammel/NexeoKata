@@ -2,14 +2,14 @@ package nexeo;
 
 import nexeo.acccount.Account;
 import nexeo.transaction.Transactions;
-import nexeo.utils.Clock;
+import nexeo.utils.DateToString;
 import nexeo.utils.Console;
 import nexeo.utils.StatementPrinter;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Clock clock = new Clock();
+		DateToString clock = new DateToString();
 		Console console = new Console();
 		Transactions transactions = new Transactions();
 		StatementPrinter statementPrinter = new StatementPrinter(console);
